@@ -16,7 +16,7 @@ if age >=20 and age<=65:
         print("월요일 접종")
     elif birth_year[-1] == "2"  or birth_year[-1] == "7" :
         print("화요일 접종")
-    elif birth_year[-1] == "3"  or birth_year[-1] == "8" :
+    elif birth_year[-1] == "-1"  or birth_year[-1] == "8" :
         print("수요일 접종")
     elif birth_year[-1] == "4"  or birth_year[-1] == "9" :
         print("목요일 접종")
