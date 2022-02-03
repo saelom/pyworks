@@ -11,6 +11,7 @@ for i in a:
     
 print("a2 =", a2)
 
+
 #홀수만 저장
 for i in a:
     if i % 2 == 1:
