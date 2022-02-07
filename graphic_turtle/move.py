@@ -17,13 +17,13 @@ turtle.right(90)
 
 # for문 구현
 # 사각형
-for i in range (4):
+for i in range(4):
     turtle.forward(100)
     turtle.right(90)
 
 # 삼각형
 turtle.color('red')
-for i in range (3):
+for i in range(3):
     turtle.forward(100)
     turtle.left(120)
 
