@@ -13,4 +13,5 @@ print(student[-1].learn())
 print('***** 학생 명단 *****')
 for s in student:
     print(s)
-    #print(s.learn())
+    print(s.learn())
+    
