@@ -6,6 +6,7 @@ def getconn():
     conn = sqlite3.connect("./book.db")
     return conn
 
+
 def create_table():
     # 테이블 생성
     con = getconn()
