@@ -14,9 +14,10 @@ class GoldCustomer(Customer):
         self.bonus_point += int(price * self.bonus_ratio)
         return price
 
-gold = GoldCustomer(1002, '지민')
-price = 10000
-cost = gold.calc_price(price)
-print(gold.getname() + "님의 구매 비용은 " + str(cost) + "원 입니다")
-print(gold)
+if __name__ == "__main__":
+    gold = GoldCustomer(1002, '지민')
+    price = 10000
+    cost = gold.calc_price(price)
+    print(gold.getname() + "님의 구매 비용은 " + str(cost) + "원입니다")
+    print(gold)
 
