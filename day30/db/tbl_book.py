@@ -12,7 +12,7 @@ def create_table():
     con = getconn()
     cursur = con.cursor()
     sql = """
-        CREATE TABLE book(
+        CREATE TABLE book( 
             book_no integer PRIMARY KEY AUTOINCREMENT,
             title text NOT NULL,
             publisher text NOT NULL,
