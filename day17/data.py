@@ -21,3 +21,5 @@ print(seasons)
 print(seasons[0])
 print(seasons[-1])
 
+
+# 새롭게 다시 깃에 등록하기
